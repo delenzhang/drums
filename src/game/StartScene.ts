@@ -33,7 +33,7 @@ class StartScene extends Scene {
 			colorLabel.textColor = 0xffffff;
 			colorLabel.width = stageW;
 			colorLabel.textAlign = egret.HorizontalAlign.CENTER;
-			colorLabel.text = "通用架子鼓模拟";
+			colorLabel.text = "开心配乐架子鼓";
 			colorLabel.size = 48;
 			colorLabel.x = 0;
 			colorLabel.y = 80;

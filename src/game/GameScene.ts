@@ -73,7 +73,6 @@ class GameScene extends Scene {
 		this.sound_id.addEventListener(eui.UIEvent.CHANGE, this.changeHandler, this);
 	}
 	changeHandler(e) {
-		console.log(e.target.value)
 		this.setVolume(e.target.value/ 100)
 	}
 	playbtnClick() {

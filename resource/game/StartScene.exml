@@ -2,8 +2,6 @@
 <e:Skin class="StartSceneexml" width="1128" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
 	<e:Group width="1136" height="640" x="0" y="0" cacheAsBitmap="true">
 		<e:Rect left="0" top="-1" includeInLayout="true" maxHeight="640" maxWidth="1139" width="1129.94" height="641.94" anchorOffsetY="0" anchorOffsetX="0" x="0" y="-1" scaleX="1" scaleY="1" strokeAlpha="0.6" fillAlpha="0.6" fillColor="0x128fd1"/>
-		<e:Image width="215.61" height="210.85" x="907.57" y="379.28" anchorOffsetX="0" anchorOffsetY="0" source="egret_icon_png"/>
-		<e:Label text="游戏提示：" x="70" y="502" textColor="0xe0c318"/>
-		<e:Label text="按住屏幕左边，向左，按住右半屏幕向右。点击屏幕上半屏，跳起。" x="148" y="554" anchorOffsetX="0" width="780" anchorOffsetY="0" height="68" textColor="0xc2c6ce"/>
+		<e:Image width="215.61" height="210.85" x="886.36" y="367.16" anchorOffsetX="0" anchorOffsetY="0" source="egret_icon_png"/>
 	</e:Group>
 </e:Skin>

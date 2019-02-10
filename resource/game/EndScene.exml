@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EndSceneexml" width="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" height="640">
+	<e:Group width="1136" height="640" x="0" y="0" cacheAsBitmap="true">
+		<e:Rect left="0" right="0" top="0" bottom="0" fillColor="0x5a105e" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Label text="游戏结束" size="65" verticalCenter="-172.5" y="130" scaleX="1" scaleY="1" horizontalCenter="0" bold="true" textColor="0xa39696"/>
+		<e:Label id="btn_fh" text="重新开始" y="491.1" rotation="359.92" anchorOffsetX="115.98" anchorOffsetY="13.49" scaleX="1" scaleY="1" horizontalCenter="0" bold="true" size="48" textColor="0x0bc616"/>
+		<e:Image width="359.39" height="307.88" x="717.84" y="188.19" anchorOffsetX="0" anchorOffsetY="0" source="meltsnow_png" fillMode="scale"/>
+		<e:Label text="您的最高得分：" x="185.09" y="224.67" anchorOffsetX="0" width="367.94" anchorOffsetY="0" height="81.52" textColor="0xebed1a" size="48"/>
+		<e:Label id="score_id" text="0" x="515.28" y="215.27" anchorOffsetX="0" width="201.27" anchorOffsetY="0" height="111.81" textColor="0xe00b0b" size="64"/>
+		<e:Label id="end_help_id" text="歌曲《 狂* 》，一不小心打败了你呢！" x="188" y="302.6" anchorOffsetX="0" width="543.69" anchorOffsetY="0" height="172.42" size="48" textColor="0xefdb83" italic="true" fontFamily="FangSong"/>
+	</e:Group>
+</e:Skin>

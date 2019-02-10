@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSceneexml" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" >
+	<w:Config id="168ad2cfaf1"/>
+	<e:Group width="1136" height="640" x="0" y="0" cacheAsBitmap="true">
+		<e:Rect x="0" y="0" scaleX="1" scaleY="1" fillAlpha="0.5" width="1136" height="640" fillColor="0x0047fc"/>
+		<e:Image width="228" height="110" x="192" y="524" anchorOffsetX="0" anchorOffsetY="0" source="ic_gu_one_png"/>
+		<e:Image width="258" height="152" x="738" y="486" anchorOffsetX="0" anchorOffsetY="0" source="ic_gu_three_png"/>
+		<e:Image width="318" height="140" y="500" anchorOffsetX="0" anchorOffsetY="0" source="ic_gu_two_png" horizontalCenter="8"/>
+		<e:Image id="bass_id" width="324" height="330" y="296" anchorOffsetX="0" anchorOffsetY="0" source="ic_floor_drums_png" rotation="0" horizontalCenter="10"/>
+		<e:Image id="snare_id" width="266" height="264" x="172" y="362" anchorOffsetX="0" anchorOffsetY="0" source="ic_snare_drum_stand_png"/>
+		<e:Image id="caicha_id" width="226" height="226" x="82" y="230" anchorOffsetX="0" anchorOffsetY="0" source="ic_caicha_png"/>
+		<e:Rect id="highhit_id" width="112.73" height="204.21" x="74.06" y="243.76" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" ellipseHeight="80" ellipseWidth="200" fillColor="0xf9fafc" rotation="1.23"/>
+		<e:Image id="crash_id" width="264" height="264" x="18" y="6" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="ic_crash_cymbal_colour_png"/>
+		<e:Image id="floor_id" width="310" height="326" x="720" y="286" anchorOffsetX="0" anchorOffsetY="0" source="ic_snare_drum_stand_png"/>
+		<e:Image id="ltom_id" width="200" height="200" x="556" y="156" anchorOffsetX="0" anchorOffsetY="0" source="ic_tom_tom_m_png"/>
+		<e:Image id="stom_id" width="200" height="200" x="358" y="162" anchorOffsetX="0" anchorOffsetY="0" source="ic_tom_tom_m_png"/>
+		<e:Image id="ride_id" width="304" height="304" x="798" y="32" anchorOffsetX="0" anchorOffsetY="0" source="ic_jiezoucha_png"/>
+		<e:HSlider id="sound_id" width="376" height="30" y="60" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="39" maximum="100" minimum="0"/>
+		<e:Label id="playbtn_id" text="暂停" x="356" y="118"/>
+		<e:Label id="replay_id" text="重放" x="460" y="120"/>
+		<e:Label id="song_name" text="无" x="348" y="20" size="30" bold="true" anchorOffsetX="0" width="444" anchorOffsetY="0" height="34"/>
+		<e:Label id="select_id" text="选择" x="588" y="120"/>
+		<e:Label text="🔊" x="364" y="62"/>
+	</e:Group>
+</e:Skin>

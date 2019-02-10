@@ -1,0 +1,235 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,egret_icon_png,description_json,di_gu_mp3,floor_mp3,snare_mp3,high_tom_tomh_mp3,low_tom_tomms_mp3,openhh_mp3,crash_cymbal1_crash_mp3,ride_cym_mp3,ic_caicha_png,ic_crash_cymbal_colour_png,ic_floor_drums_png,ic_jiezoucha_png,ic_snare_drum_stand_png,ic_tom_tom_m_png,ic_tom_tom_png,ic_drum_one_one_png,ic_gu_one_png,ic_gu_three_png,ic_gu_two_png,closed_hi_hat_hlhatcl_loud1r_mp3",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "di_gu_mp3",
+			"type": "sound",
+			"url": "raw/di_gu.mp3"
+		},
+		{
+			"name": "floor_mp3",
+			"type": "sound",
+			"url": "raw/floor.mp3"
+		},
+		{
+			"name": "snare_mp3",
+			"type": "sound",
+			"url": "raw/snare.mp3"
+		},
+		{
+			"name": "high_tom_tomh_mp3",
+			"type": "sound",
+			"url": "raw/high_tom_tomh.mp3"
+		},
+		{
+			"name": "low_tom_tomms_mp3",
+			"type": "sound",
+			"url": "raw/low_tom_tomms.mp3"
+		},
+		{
+			"name": "openhh_mp3",
+			"type": "sound",
+			"url": "raw/openhh.mp3"
+		},
+		{
+			"name": "crash_cymbal1_crash_mp3",
+			"type": "sound",
+			"url": "raw/crash_cymbal1_crash.mp3"
+		},
+		{
+			"name": "ride_cym_mp3",
+			"type": "sound",
+			"url": "raw/ride_cym.mp3"
+		},
+		{
+			"name": "ic_caicha_png",
+			"type": "image",
+			"url": "png/ic_caicha.png"
+		},
+		{
+			"name": "ic_crash_cymbal_colour_png",
+			"type": "image",
+			"url": "png/ic_crash_cymbal_colour.png"
+		},
+		{
+			"name": "ic_floor_drums_png",
+			"type": "image",
+			"url": "png/ic_floor_drums.png"
+		},
+		{
+			"name": "ic_jiezoucha_png",
+			"type": "image",
+			"url": "png/ic_jiezoucha.png"
+		},
+		{
+			"name": "ic_snare_drum_stand_png",
+			"type": "image",
+			"url": "png/ic_snare_drum_stand.png"
+		},
+		{
+			"name": "ic_tom_tom_m_png",
+			"type": "image",
+			"url": "png/ic_tom_tom_m.png"
+		},
+		{
+			"name": "ic_tom_tom_png",
+			"type": "image",
+			"url": "png/ic_tom_tom.png"
+		},
+		{
+			"name": "ic_drum_one_one_png",
+			"type": "image",
+			"url": "png/ic_drum_one_one.png"
+		},
+		{
+			"name": "ic_gu_one_png",
+			"type": "image",
+			"url": "png/ic_gu_one.png"
+		},
+		{
+			"name": "ic_gu_three_png",
+			"type": "image",
+			"url": "png/ic_gu_three.png"
+		},
+		{
+			"name": "ic_gu_two_png",
+			"type": "image",
+			"url": "png/ic_gu_two.png"
+		},
+		{
+			"name": "closed_hi_hat_hlhatcl_loud1r_mp3",
+			"type": "sound",
+			"url": "raw/closed_hi_hat_hlhatcl_loud1r.mp3"
+		}
+	]
+}

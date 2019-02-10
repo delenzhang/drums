@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="skins.ButtonSkin" states="up,down,disabled" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui" width="200" height="75">
+	<e:Group width="200" height="75" x="0" y="0" cacheAsBitmap="true">
+		<e:Image width="202" height="74" scale9Grid="1,3,8,8" alpha.disabled="0.5" source="button_up_png" source.down="button_down_png" anchorOffsetX="0" anchorOffsetY="0" x="-2" y="0" scaleX="1" scaleY="1"/>
+		<e:Label id="labelDisplay" top="17" bottom="13" left="7" right="13" size="32" textColor="0xFFFFFF" verticalAlign="middle" textAlign="center" anchorOffsetX="0" anchorOffsetY="0" x="7" y="17" scaleX="1" scaleY="1"/>
+		<e:Image id="iconDisplay" horizontalCenter="0" verticalCenter="0" x="100" y="38" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>

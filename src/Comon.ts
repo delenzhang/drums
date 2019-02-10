@@ -1,0 +1,4 @@
+class Comon {
+	public constructor() {
+	}
+}

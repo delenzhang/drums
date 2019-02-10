@@ -1,0 +1,82 @@
+{
+    "global": {
+        "globalAutoLayerMarkEnable": false,
+        "globalAdsorbEnable": false,
+        "globalRulerEnable": false,
+        "globalBindingDataTestObj": []
+    },
+    "168a17151a5": {
+        "backgroundX": 0,
+        "backgroundY": 0,
+        "backgroundWidth": -1,
+        "backgroundHeight": -1,
+        "useBgImage": true,
+        "useBgColor": true,
+        "backgroundAlpha": 100
+    },
+    "168ad2cfaf1": {
+        "backgroundX": 0,
+        "backgroundY": 0,
+        "backgroundWidth": -1,
+        "backgroundHeight": -1,
+        "useBgImage": true,
+        "useBgColor": true,
+        "backgroundAlpha": 100,
+        "bindingDataTestObj": []
+    },
+    "168ad539c67": {
+        "path": "../resource/game/comps/controls.ts",
+        "class": "controls",
+        "parentPath": ""
+    },
+    "168ad556dc4": {
+        "path": "game/controls.ts",
+        "class": "controls",
+        "parentPath": ""
+    },
+    "168ae25ade1": {
+        "path": "../resource/eui_skins/Firebtn.ts",
+        "class": "Firebtn",
+        "parentPath": ""
+    },
+    "168b32a03e2": {
+        "path": "../resource/game/Snowman.ts",
+        "class": "Snowman",
+        "parentPath": ""
+    },
+    "168b377b272": {
+        "path": "../resource/Snowman/hat.ts",
+        "class": "hat",
+        "parentPath": ""
+    },
+    "168b37923cd": {
+        "path": "models/hat.ts",
+        "class": "hat",
+        "parentPath": ""
+    },
+    "168b8b1bd01": {
+        "path": "../resource/badman/banman.ts",
+        "class": "banman",
+        "parentPath": ""
+    },
+    "168b8cd15d6": {
+        "path": "../resource/badman/body.ts",
+        "class": "body",
+        "parentPath": ""
+    },
+    "168bb82a14c": {
+        "path": "../resource/Snowman/ball.ts",
+        "class": "ball",
+        "parentPath": ""
+    },
+    "168bbb553f1": {
+        "path": "../resource/screen/Life.ts",
+        "class": "Life",
+        "parentPath": ""
+    },
+    "168bc0cfde4": {
+        "path": "../resource/screen/round.ts",
+        "class": "round",
+        "parentPath": ""
+    }
+}

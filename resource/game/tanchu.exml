@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="tanchu" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="1136" height="640">
+	<e:Group width="1136" height="640" x="0" y="0" cacheAsBitmap="true">
+		<e:Rect width="600" height="500" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" fillColor="0x494c4b" fillAlpha="0.8"/>
+		<e:Label id="btn_close" text="关闭" horizontalCenter="233" verticalCenter="-213" x="544" y="247" scaleX="1" scaleY="1" textColor="0xc9c1bb"/>
+		<e:VScrollBar id="verticalScrollBar" width="20" height="404.86" y="136.67" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="267"/>
+		<e:Scroller id="game_list_scroller" width="506.06" height="351.52" x="315.06" y="191.03" anchorOffsetX="0" anchorOffsetY="0">
+			<e:Group/>
+		</e:Scroller>
+		<e:Label text="请选择歌曲" y="106" horizontalCenter="0" size="36" bold="true"/>
+	</e:Group>
+</e:Skin>

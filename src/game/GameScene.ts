@@ -80,8 +80,10 @@ class GameScene extends Scene {
 		this.playbtn_id.text  = play?'暂停': '播放'
 		if (Common.sound && Common.sound.channel) {
 			if (play) {
+				console.log(this.position, 111)
 				Common.sound.channel = Common.sound.play(this.position)
 			} else {
+				console.log(Common.sound.channel.position)
 				this.position = Common.sound.channel.position
 				Common.sound.channel.stop()
 			}
@@ -93,13 +95,15 @@ class GameScene extends Scene {
 		})
 	}
 	bassClick(){
-		GameScene.bass_music.play(0, 1);
+		let channel = GameScene.bass_music.play(0, 1);
+		channel.volume = 1
 		this.tweens(this.bass_id)
 	}
 	shakeClick(arg, e) {
 		this[arg].anchorX = 0.5;
         this[arg].anchorY = 0.5;
-		GameScene[arg+'_music'].play(0, 1)
+		let channel = GameScene[arg+'_music'].play(0, 1)
+		channel.volume = 1
 		if (arg === 'highhit_id') {
 			arg = 'caicha_id'
 		}
@@ -146,16 +150,7 @@ class GameScene extends Scene {
 		}, this, []);
 	}
 	private tweens(obj) {
-		let tw = egret.Tween.get(obj)
-		for(let i = 0; i< this.flashTimes; i++) {
-			let time =Math.floor(30/(i+1))
-			tw.to({ alpha: 0.9}, time, egret.Ease.quadOut)
-			tw.to({ alpha: (1)}, time, egret.Ease.quadIn)
-		}
-		tw.call(() => {
-				egret.Tween.removeTweens(obj);
-				obj.alpha = 1;
-		}, this, []);
+		this.shake(obj)
 	}
 	setVolume(index) {
 		GameScene.volume = index;

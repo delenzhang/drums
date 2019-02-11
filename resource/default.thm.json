@@ -17,7 +17,8 @@
 		"hat": "resource/Snowman/hat.exml",
 		"ball": "resource/Snowman/ball.exml",
 		"Life": "resource/screen/Life.exml",
-		"round": "resource/screen/round.exml"
+		"round": "resource/screen/round.exml",
+		"ScrollerItem": "resource/game/ScrollerItem.exml"
 	},
 	"autoGenerateExmlsList": true,
 	"exmls": [
@@ -36,6 +37,7 @@
 		"resource/eui_skins/VSliderSkin.exml",
 		"resource/game/EndScene.exml",
 		"resource/game/GameScene.exml",
+		"resource/game/ScrollerItem.exml",
 		"resource/game/StartScene.exml",
 		"resource/game/tanchu.exml"
 	],

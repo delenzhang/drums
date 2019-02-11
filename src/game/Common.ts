@@ -20,5 +20,6 @@ class Common {
 		},request);
 	}
 	static sound = null
+	static data=[]
 }
 window['Common'] = Common

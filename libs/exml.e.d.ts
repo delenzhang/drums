@@ -54,6 +54,8 @@ declare class EndSceneexml extends eui.Skin{
 }
 declare class GameSceneexml extends eui.Skin{
 }
+declare class ScrollerItemSkin extends eui.Skin{
+}
 declare class StartSceneexml extends eui.Skin{
 }
 declare class tanchu extends eui.Skin{

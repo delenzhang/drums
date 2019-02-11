@@ -10,16 +10,17 @@
 	],
 	"game": [
 		"bin-debug/game/Scene.js",
-		"bin-debug/game/Common.js",
+		"bin-debug/game/EndScene.js",
 		"bin-debug/LoadingUI.js",
 		"bin-debug/Main.js",
 		"bin-debug/Platform.js",
 		"bin-debug/ThemeAdapter.js",
+		"bin-debug/game/Common.js",
 		"bin-debug/Comon.js",
-		"bin-debug/game/EndScene.js",
 		"bin-debug/game/GameScene.js",
 		"bin-debug/AssetAdapter.js",
 		"bin-debug/game/SceneManger.js",
+		"bin-debug/game/ScrollerItem.js",
 		"bin-debug/game/StartScene.js",
 		"bin-debug/game/Tanchu.js"
 	]

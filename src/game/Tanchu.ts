@@ -9,6 +9,7 @@ class Tanchu extends Scene{
 	public constructor(data, selectedIndex, fn) {
 		super();
 		this.datalist = data
+		Common.data = data
 		this.selectedIndex = selectedIndex
 		this.fn = fn
 		this.skinName = "resource/game/tanchu.exml";
@@ -27,13 +28,10 @@ class Tanchu extends Scene{
         this.verticalScrollBar.thumb.y = thumbY * (this.verticalScrollBar.height - this.verticalScrollBar.thumb.height);
 	}
 	setDate() {
-		var exml = `<e:Skin xmlns:e="http://ns.egret.com/eui" states="up,down" height="100">
-		               <e:Label text="{data.name}" textColor.down="0xFFFFFF" textColor.up="0xaaaaaa" horizontalCenter="0" verticalCenter="0"/>
-					 </e:Skin>`;
         var list = new eui.List();
         list.dataProvider = new eui.ArrayCollection(this.datalist);
 		list.selectedIndex = this.selectedIndex;
-        list.itemRendererSkinName = exml;
+        list.itemRenderer = ScrollerItem;
 		this.list = list
 		this.game_list_scroller.viewport = list;
 		list.addEventListener(eui.ItemTapEvent.ITEM_TAP,this.onChange,this);
@@ -44,12 +42,19 @@ class Tanchu extends Scene{
 	private onChange(e:eui.PropertyEvent):void{
         //获取点击消息
         console.log(this.list.selectedItem,this.list.selectedIndex)
+		 for(let i = 0;i<this.list.$children.length;i++){
+			 if (this.list.selectedIndex ===i) {
+				 this.list.$children[i]['select_id'].visible = true
+			 } else {
+				 this.list.$children[i]['select_id'].visible = false
+			 }
+        }
 		this.fetchSong(this.list.selectedIndex)
 		this.fn&&this.fn(this.list.selectedIndex)
     }
     fetchSong(index){
 		let currentItem = this.datalist[index]
-		if (Common.sound) {
+		if (Common.sound && Common.sound.channel) {
 			Common.sound.channel.stop()
 			Common.sound.close()
 		} else {

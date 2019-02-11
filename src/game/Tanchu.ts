@@ -41,7 +41,6 @@ class Tanchu extends Scene{
 	}
 	private onChange(e:eui.PropertyEvent):void{
         //获取点击消息
-        console.log(this.list.selectedItem,this.list.selectedIndex)
 		 for(let i = 0;i<this.list.$children.length;i++){
 			 if (this.list.selectedIndex ===i) {
 				 this.list.$children[i]['select_id'].visible = true

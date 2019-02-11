@@ -5,7 +5,6 @@ class ScrollerItem extends eui.ItemRenderer {
 	public constructor() {
 		super();
 		this.skinName ="resource/game/ScrollerItem.exml";
-		this.addEventListener(egret.TouchEvent.TOUCH_TAP,this.clickItem,this);
 	}
 
 	protected partAdded(partName:string,instance:any):void
@@ -19,7 +18,6 @@ class ScrollerItem extends eui.ItemRenderer {
 		super.childrenCreated();
 	}
 	 protected dataChanged():void{
-		 console.log(GameScene.selectedIndex, 111)
 		 let currentItem = Common.data[GameScene.selectedIndex]
 		 if (JSON.stringify(this.data) === JSON.stringify(currentItem)) {
 			 this.flag = true
@@ -29,9 +27,5 @@ class ScrollerItem extends eui.ItemRenderer {
 			 this.select_id.visible = false
 		 }
 		 this.rolename_id.text = this.data.name;
-	 }
-	 clickItem(){
-		 console.log(this.select_id, 'clickItem')
-		//  this.select_id.visible = true
 	 }
 }
